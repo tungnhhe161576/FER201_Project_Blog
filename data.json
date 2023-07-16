@@ -1,0 +1,81 @@
+{
+  "user": [
+    {
+      "userId": 1,
+      "userName": "Tùng",
+      "email": "tungnhhe161576@fpt.edu.vn",
+      "password": "123456",
+      "image": "image1",
+      "gender": "male",
+      "address": "Hà Nội"
+    },
+    {
+      "userId": 2,
+      "userName": "Huy",
+      "email": "huynghe163499@fpt.edu.vn",
+      "password": "123456",
+      "image": "image1",
+      "gender": "male",
+      "address": "Hà Nội"
+    },
+    {
+      "userId": 3,
+      "userName": "Hùng",
+      "email": "huynghe163499@fpt.edu.vn",
+      "password": "123456",
+      "image": "image1",
+      "gender": "male",
+      "address": "Hà Nội"
+    }
+  ],
+  "posts" :[
+    {
+      "postId" : 1,
+      "content": "Buổi cuối cùng phục vụ các chế thắp hương mùng một đây ạ. Mùng một đầu tháng thắp hương chùm vải đỏ chót, ngọt lịm thì các chế cả tháng cứ gọi là tiền vào ùn ùn nhá. Nhanh tay thì còn, chậm tay thì hết nhá các chế.",
+      "userId": 1,
+      "categoryId": 1,
+      "date_created":  "17/06/2023",
+      "image": "image1"
+    },
+    {
+      "postId" : 1,
+      "content": "Vải thiều nhà em đã chín nhé. Các chế  có nhu cầu ới em nhá.",
+      "userId": 1,
+      "categoryId": 1,
+      "date_created":  "04/06/2023",
+      "image": "image1"
+    }
+  ],
+  "category" :[
+    {
+      "categoryId": 1,
+      "categoryName": "life"
+    }
+  ],
+  "comments":[
+    {
+      "commentId" : 1,
+      "postId": 1,
+      "userId": 2,
+      "content": "Síp cho tao chùm vải quê nhà nhé!",
+      "time" :"10:00 a.m 17/06/2023",
+      "image" :"image1"
+    },
+    {
+      "commentId" : 1,
+      "postId": 1,
+      "userId": 1,
+      "content": "OK bạn",
+      "time" :"11:00 a.m 17/06/2023",
+      "image" :"image1"
+    },
+    {
+      "commentId" : 1,
+      "postId": 1,
+      "userId": 2,
+      "content": "Mang thêm vải đê",
+      "time" :"11:01 a.m 17/06/2023",
+      "image" :"image1"
+    }
+  ]
+}
