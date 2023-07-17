@@ -77,7 +77,7 @@ function Home() {
                     </div>
                     {
                         Number(page) !== Number(totalPage) ? <div className='row justify-content-center mb-5'>
-                            <button className='button' onClick={() => setPage(page + 1)}>Xem Thêmmm</button>
+                            <button className='button' onClick={() => setPage(page + 1)}>Xem Thêm</button>
                         </div> : null
                     }
 
